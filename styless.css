@@ -1,0 +1,239 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #df14bd8e;
+    background: url('https://plus.unsplash.com/premium_photo-1681488068521-8912e7d5d5fd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFsbG9vbnxlbnwwfHwwfHx8MA%3D%3D') no-repeat center center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background: #010e0117;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ffeb3b;
+}
+
+/* Hero Section Styles */
+#Hello {
+    background: url('https://speckyboy.com/wp-content/uploads/2022/01/free-landing-page-design-photoshop-psd-template-09.jpg') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#Hello::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for text readability */
+    z-index: 1;
+}
+
+#Hello h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    z-index: 2;
+    position: relative;
+}
+
+#Hello p {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    z-index: 2;
+    position: relative;
+}
+
+#Hello .cta-button {
+    background: #14bd0e;
+    color: #ffffff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    display: inline-block;
+    z-index: 2;
+    position: relative;
+}
+
+#Hello .cta-button:hover {
+    background: #0f9d00;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#about, #services, #contact {
+    position: relative;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+/* Watermark Backgrounds with Overlay */
+#about {
+    background: url('https://img.freepik.com/free-vector/colorful-stationery-icons-set_1284-14940.jpg?size=338&ext=jpg&ga=GA1.1.1413502914.1724284800&semt=ais_hybrid') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#about::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    z-index: 1;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    z-index: 2;
+    position: relative;
+}
+
+#about p {
+    margin: 20px 0;
+    font-size: 1.1rem;
+    z-index: 2;
+    position: relative;
+}
+
+#services {
+    background: url('https://images.pexels.com/photos/53874/pexels-photo-53874.jpeg?cs=srgb&dl=pexels-punttim-53874.jpg&fm=jpg') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#services::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    z-index: 1;
+}
+
+#services h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    z-index: 2;
+    position: relative;
+}
+
+#services ul {
+    list-style: none;
+    padding: 0;
+}
+
+#services ul li {
+    background: #ffffff;
+    color: #333;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 1.1rem;
+}
+
+/* Contact Section */
+#contact {
+    background: url('https://burst.shopifycdn.com/photos/contact-us-image.jpg?width=1000&format=pjpg&exif=0&iptc=0') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    z-index: 1;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    z-index: 2;
+    position: relative;
+}
+
+#contact p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    z-index: 2;
+    position: relative;
+}
+
+/* Footer Styles */
+footer {
+    background: #e1cd13;
+    color: #080b00f4;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
